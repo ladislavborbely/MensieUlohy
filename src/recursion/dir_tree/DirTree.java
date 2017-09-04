@@ -1,5 +1,4 @@
-package recursion;
-
+package recursion.dir_tree;
 import java.io.File;
 
 public class DirTree {
