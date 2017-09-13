@@ -19,7 +19,7 @@ public class RbgFrame extends JFrame {
 	public RbgFrame() {
 		red = green = blue = 0;
 		initUI();
-		addInnerMoseMotionListener();
+		addInnerMouseMotionListener();
 		addMouseWheelListener();
 	}
 
