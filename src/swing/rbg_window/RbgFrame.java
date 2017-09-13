@@ -35,11 +35,11 @@ public class RbgFrame extends JFrame {
 	}
 
 	/**
-	 * @see addInnerMoseMotionListener()
+	 * @see addInnerMouseMotionListener()
 	 */
 	@SuppressWarnings("unused")
 	@Deprecated
-	private void addMoseMotionListener() {
+	private void addMouseMotionListener() {
 		this.addMouseMotionListener(new MouseMotionListener() {
 			@Override
 			public void mouseDragged(MouseEvent e) {
@@ -63,7 +63,7 @@ public class RbgFrame extends JFrame {
 	 * bral velkost JFrame-u (teda JFrame - border za ktory sa nedalo ist) tak sa nedostalo na vacsie cisla
 	 */
 	//TODO dalsi krok by bolo  - prerobnenie na JPanel
-	private void addInnerMoseMotionListener() {
+	private void addInnerMouseMotionListener() {
 		this.getContentPane().addMouseMotionListener(new MouseMotionListener() {
 			@Override
 			public void mouseDragged(MouseEvent e) {
