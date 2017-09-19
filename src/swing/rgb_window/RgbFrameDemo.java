@@ -1,14 +1,14 @@
-package swing.rbg_window;
+package swing.rgb_window;
 
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 
-public class RbgFrameDemo {
+public class RgbFrameDemo {
 
 	public static void main(String[] args) {
 		EventQueue.invokeLater(() -> {
-			JFrame frame = new RbgFrame();
+			JFrame frame = new RgbFrame();
 			frame.setVisible(true);
 		});
 	}

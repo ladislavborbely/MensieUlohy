@@ -1,4 +1,4 @@
-package swing.rbg_window;
+package swing.rgb_window;
 
 import java.awt.Color;
 import java.awt.event.MouseEvent;
@@ -8,7 +8,7 @@ import java.awt.event.MouseWheelListener;
 
 import javax.swing.JFrame;
 
-public class RbgFrame extends JFrame {
+public class RgbFrame extends JFrame {
 
 	private static final long serialVersionUID = -7576211584524781823L;
 	private int red;
@@ -16,7 +16,7 @@ public class RbgFrame extends JFrame {
 	private int green;
 	private JFrame main = this;
 
-	public RbgFrame() {
+	public RgbFrame() {
 		red = green = blue = 0;
 		initUI();
 		addInnerMouseMotionListener();
@@ -24,13 +24,13 @@ public class RbgFrame extends JFrame {
 	}
 
 	private void initUI() {
-		setTitle("Rbg Colors");
+		setTitle("Rgb Colors");
 		setSize(510, 510);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 	}
 
 	private void updateTitle() {
-		String title = "Rbg Colors | r:" + red + " g:" + green + " b:" + blue;
+		String title = "Rgb Colors | r:" + red + " g:" + green + " b:" + blue;
 		this.setTitle(title);
 	}
 
