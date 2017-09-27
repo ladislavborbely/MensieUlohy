@@ -62,7 +62,7 @@ public class RgbFrame extends JFrame {
 	 * Berie vnutornu velkost kde povodny addMoseMotionListener() 
 	 * bral velkost JFrame-u (teda JFrame - border za ktory sa nedalo ist) tak sa nedostalo na vacsie cisla
 	 */
-	//TODO dalsi krok by bolo  - prerobnenie na JPanel
+	// dalsi krok by bolo  - prerobnenie na JPanel
 	private void addInnerMouseMotionListener() {
 		this.getContentPane().addMouseMotionListener(new MouseMotionListener() {
 			@Override
